@@ -4,7 +4,7 @@ MinmaxCSA deals with:
 2. the curse of dimensionality;
 3. Big Data volume and velocity.
 
-On [MinMaxCSA paper](https://doi.org/10.1016/j.knosys.2017.08.013) two MinMaxCSA methods, Minmax Circular Sector Arcs Lower Bound (CSAL) and Minmax Circular Sector Arcs Full Bound (CSA) were proposed and this source code repository evaluates MinMaxCSA on a external plagiarism detection task known as Heuristic Retrieval as described on paper's abstract:
+On [MinMaxCSA paper](https://doi.org/10.1016/j.knosys.2017.08.013) two MinMaxCSA methods, Minmax Circular Sector Arcs Lower Bound (CSAL) and Minmax Circular Sector Arcs Full Bound (CSA) were proposed. Moreover, this source code repository evaluates MinMaxCSA methods on a external plagiarism detection task (known as Heuristic Retrieval) as described on paper's abstract:
 
 > *"Heuristic Retrieval (HR) task aims to retrieve a set of documents from which the external plagiarism detection identifies plagiarized pieces of text. In this context, we present Minmax Circular Sector Arcs (MinMaxCSA) algorithms that treats HR task as an approximate k-nearest neighbor search problem. Moreover, MinMaxCSA algorithms aim to retrieve the set of documents with greater amounts of plagiarized fragments, while reducing the amount of time to accomplish the HR task."*
 
@@ -14,14 +14,14 @@ PSJ code usage:
 1. enter on folder (path_to_src/)src/plagiarism_detection/extermal_plagiarism
 2. run:
 ```
-$ python PYTHONPATH=(path_to_src/)src/plagiarism_detection/ pairwise_jaccard_comparison.py
+$ python PYTHONPATH=(path_to_src/)src/plagiarism_detection/pairwise_jaccard_comparison.py
 ```
 
 HR code usage:
 1. enter on folder (path_to_src/)src/plagiarism_detection/extermal_plagiarism
 2. run:
 ```
-$ python PYTHONPATH=(path_to_src/)src/plagiarism_detection/ heuristic_retrieval.py
+$ python PYTHONPATH=(path_to_src/)src/plagiarism_detection/heuristic_retrieval.py
 ```
 
 # Citation Credit:
