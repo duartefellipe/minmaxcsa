@@ -30,7 +30,7 @@ if you end up using this code in published work, please cite:
 ```Fellipe Duarte, Danielle Caled, Geraldo Xexéo, MinMax Circular Sector Arc for External Plagiarism’s Heuristic Retrieval Stage, Knowledge-Based Systems, 2017, ISSN 0950-7051, URL 'https://doi.org/10.1016/j.knosys.2017.08.013' ```
 
 bibtex format:
-```\@article{
+```article{
 title = "MinMax Circular Sector Arc for External Plagiarism’s Heuristic Retrieval Stage",
 journal = "Knowledge-Based Systems",
 volume = "137",
